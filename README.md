@@ -1,5 +1,9 @@
 # LICITRA Research Program
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18860290.svg)](https://doi.org/10.5281/zenodo.18860290)
+[![Research](https://img.shields.io/badge/type-security--research-blue)]()
+[![License](https://img.shields.io/badge/license-MIT-green)]()
+
 **Cryptographic runtime integrity for AI agent systems.**
 
 AI agents increasingly invoke tools, APIs, and production infrastructure.  
@@ -52,20 +56,21 @@ LICITRA focuses on **runtime enforcement for agent tool execution**.
 
 # Architecture Overview
 
+```
 Agent
-↓
+  ↓
 Authorization Pipeline
-↓
+  ↓
 Execution Ticket
-↓
+  ↓
 Proxy Gateway
-↓
+  ↓
 Tool Execution
-↓
+  ↓
 Tamper-Evident Audit Ledger
-↓
+  ↓
 Witness Transparency
-
+```
 
 Agents cannot invoke tools directly.  
 All tool execution must present a **cryptographically signed execution ticket**.
