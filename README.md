@@ -79,6 +79,24 @@ All tool execution must present a **cryptographically signed execution ticket**.
 
 # LICITRA Components
 
+## LICITRA Execution Gateway
+
+Production-ready reference implementation of the LICITRA framework.
+
+Features:
+- 14 API endpoints — intent, policy, tickets, verify, audit, evidence, metrics
+- Ed25519 signed execution tickets with 12-check verification
+- OWASP LLM01 + LLM05 + LLM06 + LLM10 coverage
+- Merkle Mountain Range tamper-evident audit chain
+- 10 live attack demos + React dashboard
+- 91 tests — 54 unit + 37 integration
+- Docker Compose — one command to run
+
+Repository
+https://github.com/narendrakumarnutalapati/licitra-execution-gateway
+
+Release: v1.0.0
+
 ## LICITRA-SENTRY
 
 Runtime authorization and enforcement system for AI agents.
